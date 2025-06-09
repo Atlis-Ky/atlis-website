@@ -1,5 +1,6 @@
 
 import AboutMe from "./components/AboutMe";
+import Discography from "./components/Discography";
 import Intro from "./components/Intro";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
      <main>
       <Intro />
       <AboutMe />
+      <Discography />
     </main>
   );
 }
