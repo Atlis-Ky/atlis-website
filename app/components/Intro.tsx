@@ -17,15 +17,25 @@ const columns = [
 
 const Intro = () => (
   <section
-    className="w-full h-[calc(100vh-64px)] bg-[#1a1a1a] pt-16 font-sans"
+    className="relative w-full h-screen mt-[64px] bg-[#1a1a1a] font-sans overflow-hidden"
     id="intro"
   >
-    <div className="w-full h-full grid grid-cols-1 md:grid-cols-3">
+    {/* Background image with overlay */}
+    <div className="absolute inset-0 z-0">
+      <img
+        src="/IMG_8939.jpeg"
+        alt="Background"
+        className="w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-[#1a1a1a] opacity-60" />
+    </div>
+    {/* Foreground content */}
+    <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
       {columns.map((col, idx) => (
         <div
           key={col.title}
-          className={`h-full bg-[#232323] p-16 ${
-            idx !== 0 ? "border-l border-white/20" : ""
+          className={`h-full bg-[#232323]/40 p-16 ${
+            idx !== 0 ? "border-l-2 border-white" : ""
           }`}
         >
           <div className="h-full grid grid-rows-[auto,1fr] items-start text-center">
@@ -35,7 +45,7 @@ const Intro = () => (
             >
               {col.title}
             </h2>
-            <p className="text-xl leading-relaxed text-white/90 max-w-lg mx-auto tracking-wide">
+            <p className="text-xl font-semibold leading-relaxed text-white/90 max-w-lg mx-auto tracking-wide">
               {col.text}
             </p>
           </div>

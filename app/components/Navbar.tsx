@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const sections = [
+  { href: "#intro", label: "Intro" },
   { href: "#about-me", label: "About Me" },
   { href: "#projects", label: "Projects" },
   { href: "#singles", label: "Singles" },
