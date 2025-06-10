@@ -4,7 +4,7 @@ import SinglesFeatures from "./SinglesFeatures";
 
 const Discography = () => (
   <>
-    <SectionDivider title="Albums & EP's" />
+    <SectionDivider title="Albums & EP's" ySeed={20} />
     <AlbumsEPs
       title="Ambient Studies"
       description="6 track passion project exploring ambient soundscapes and textures. Independently distributed and released, 2025."
@@ -23,7 +23,7 @@ const Discography = () => (
       backgroundImage="/dreamscapemain.jpeg"
       spotifyEmbedUrl="https://open.spotify.com/embed/album/2NBE2hXvKjdFgyN9zfpP8t?utm_source=generator"
     />
-    <SectionDivider title="Singles & Features" />
+    <SectionDivider title="Singles & Features" ySeed={40} />
 
     <SinglesFeatures
       title="Dreamweaver"
