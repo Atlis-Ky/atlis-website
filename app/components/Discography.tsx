@@ -3,7 +3,7 @@ import SectionDivider from "./SectionDivider";
 import SinglesFeatures from "./SinglesFeatures";
 
 const Discography = () => (
-  <>
+  <section id="discography" className="scroll-mt-16">
     <SectionDivider title="Albums & EP's" ySeed={20} />
     <AlbumsEPs
       title="Ambient Studies"
@@ -23,7 +23,7 @@ const Discography = () => (
       backgroundImage="/dreamscapemain.jpeg"
       spotifyEmbedUrl="https://open.spotify.com/embed/album/2NBE2hXvKjdFgyN9zfpP8t?utm_source=generator"
     />
-    <SectionDivider title="Singles & Features" ySeed={40} />
+    <SectionDivider title="Singles & Features" ySeed={0} />
 
     <SinglesFeatures
       title="Dreamweaver"
@@ -83,7 +83,7 @@ const Discography = () => (
       backgroundImage="/rewind.jpg"
 
     />
-  </>
+  </section>
 );
 
 export default Discography;

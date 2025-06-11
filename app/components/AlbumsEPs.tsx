@@ -14,7 +14,7 @@ const AlbumsEPs = ({
   spotifyEmbedUrl,
 }: AlbumsEPsProps) => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden flex items-center justify-center"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden flex items-center justify-center scroll-mt-16"
     style={{ scrollMarginTop: "64px" }}
   >
 

@@ -2,7 +2,7 @@
 
 const FindMe = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
     id="find-me"
   >
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">

@@ -2,7 +2,7 @@
 
 const AboutMe = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
     id="about-me"
   >
     <div className="absolute inset-0 z-0">
@@ -16,12 +16,12 @@ const AboutMe = () => (
 
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
       <div className="md:col-span-2 h-full bg-[#232323]/40 p-12 flex flex-col justify-center">
-        <h2
+        {/* <h2
           className="text-5xl font-extrabold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 tracking-widest uppercase drop-shadow-lg"
           style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
         >
           About Me
-        </h2>
+        </h2> */}
         <p className="text-xl font-semibold leading-relaxed text-white/90 max-w-2xl tracking-wide">
           Hey! I’m Kyle, as you probably figured out by the section above I'm a
           Front End Developer, with a background as a music industry
