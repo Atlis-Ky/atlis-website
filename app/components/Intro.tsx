@@ -17,7 +17,7 @@ const columns = [
 
 const Intro = () => (
   <section
-    className="relative w-full h-screen mt-[64px] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
+    className="relative w-full h-screen pt-[64px] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
     id="intro"
   >
     {/* Background image with overlay */}

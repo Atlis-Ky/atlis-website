@@ -8,7 +8,7 @@ import SectionDivider from "./components/SectionDivider";
 
 export default function Home() {
   return (
-    <main className="scroll-smooth">
+    <main>
       <Intro />
       <SectionDivider title="About Me" ySeed={70} />
       <AboutMe />
