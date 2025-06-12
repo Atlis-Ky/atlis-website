@@ -49,6 +49,27 @@ const AboutMe = () => (
         <div className="absolute inset-0 bg-black opacity-20 pointer-events-none" />
       </div>
     </div>
+    <div className="w-full bg-[#232323] bg-opacity-90 py-3 px-4 flex flex-nowrap justify-center items-center gap-2 md:gap-4 border-t border-white/20 absolute left-0 bottom-0 z-20 divide-x divide-white/30">
+      {[
+        "React.js",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Bootstrap5",
+        "Vitest",
+        "CSS & Tailwind",
+        "API",
+        "AI Tools",
+        "Git + Github",
+      ].map((skill) => (
+        <span
+          key={skill}
+          className="text-xs md:text-sm text-white/80 tracking-widest font-semibold uppercase px-2 md:px-3 whitespace-nowrap text-center first:pl-0 last:pr-0"
+        >
+          {skill}
+        </span>
+      ))}
+    </div>
   </section>
 );
 
