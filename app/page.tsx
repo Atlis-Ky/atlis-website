@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import ContactSection from "./components/ContactSection";
 import Discography from "./components/Discography";
 import FindMe from "./components/FindMe";
+import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import SectionDivider from "./components/SectionDivider";
 // import SectionDivider from "./components/SectionDivider";
@@ -17,6 +18,7 @@ export default function Home() {
       <FindMe />
       <SectionDivider title="Contact" ySeed={10} />
       <ContactSection />
+      <Footer />
     
     </main>
   );
