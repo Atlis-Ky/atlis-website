@@ -76,7 +76,7 @@ const Intro = () => (
       ].map((skill) => (
         <span
           key={skill}
-          className="text-xs md:text-sm text-white/80 tracking-widest font-semibold uppercase px-2 md:px-3 whitespace-nowrap text-center first:pl-0 last:pr-0"
+          className="text-xs md:text-sm text-white/80 tracking-widest font-semibold uppercase px-2 md:px-3 whitespace-nowrap text-center first:pl-0 last:pr-0 hover:text-blue-300 transition-colors duration-500"
         >
           {skill}
         </span>

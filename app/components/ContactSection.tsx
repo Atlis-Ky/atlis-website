@@ -6,7 +6,6 @@ const ContactSection = () => (
     id="contact"
   >
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
-      {/* Left & Middle: Shared background image and overlay */}
       <div className="absolute inset-0 z-0 flex">
         <img
           src="/IMG_8922.jpg"
@@ -18,9 +17,8 @@ const ContactSection = () => (
         <div className="absolute left-0 top-0 bottom-0 right-1/3 bg-[#232323] opacity-60 z-10 pointer-events-none" />
       </div>
 
-      {/* Left: Web Dev */}
-      <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white">
-        <h3 className="text-3xl font-bold mb-4 text-white text-center uppercase tracking-widest">
+      <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white group">
+        <h3 className="text-3xl font-bold mb-4 text-white group-hover:text-pink-400 transition-colors duration-500 text-center uppercase tracking-widest">
           Web Development Queries
         </h3>
         <form
@@ -52,16 +50,19 @@ const ContactSection = () => (
           />
           <button
             type="submit"
-            className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 rounded transition"
+            className="bg-pink-400 hover:bg-pink-500 text-white font-bold py-2 rounded transition uppercase tracking-widest"
+            style={{
+              fontFamily: "var(--font-geist-sans), sans-serif",
+              letterSpacing: "0.1em",
+            }}
           >
             Send
           </button>
         </form>
       </div>
 
-      {/* Middle: Production */}
-      <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white">
-        <h3 className="text-3xl font-bold mb-4 text-white text-center uppercase tracking-widest">
+      <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white group">
+        <h3 className="text-3xl font-bold mb-4 text-white group-hover:text-blue-300 transition-colors duration-500 text-center uppercase tracking-widest">
           Production Queries
         </h3>
         <form
@@ -93,14 +94,17 @@ const ContactSection = () => (
           />
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded transition"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 rounded transition uppercase tracking-widest"
+            style={{
+              fontFamily: "var(--font-geist-sans), sans-serif",
+              letterSpacing: "0.1em",
+            }}
           >
             Send
           </button>
         </form>
       </div>
 
-      {/* Right: Image */}
       <div className="relative z-10 h-full w-full flex items-center justify-center overflow-hidden">
         <img
           src="/atlis4.jpg"

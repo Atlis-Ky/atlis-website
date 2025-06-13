@@ -5,7 +5,7 @@ import FindMe from "./components/FindMe";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import SectionDivider from "./components/SectionDivider";
-// import SectionDivider from "./components/SectionDivider";
+
 
 export default function Home() {
   return (

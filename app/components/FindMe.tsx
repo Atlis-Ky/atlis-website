@@ -26,9 +26,9 @@ const FindMe = () => (
         <div className="absolute inset-0 bg-[#232323] opacity-70 z-0" />
 
         <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2">
-          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white">
+          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white group">
             <h2
-              className="text-5xl font-extrabold mb-4 text-white tracking-widest uppercase drop-shadow-lg text-center"
+              className="text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               Web Development
@@ -72,9 +72,9 @@ const FindMe = () => (
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white">
+          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white group">
             <h2
-              className="text-5xl font-extrabold mb-4 text-white tracking-widest uppercase drop-shadow-lg text-center"
+              className="text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               Production & Audio

@@ -5,7 +5,8 @@ const Footer = () => (
         Made by Kyle Smith in Next.js, with TypeScript &amp; Tailwind CSS.
       </div>
       <div className="text-right w-full md:w-auto">
-        All Photographs taken/owned by Kyle Smith. Illustrations made for Atlis project &amp; collaborators for release purposes.
+        All Photographs taken/owned by Kyle Smith. Illustrations made for Atlis
+        project &amp; collaborators for release purposes.
       </div>
     </div>
   </footer>

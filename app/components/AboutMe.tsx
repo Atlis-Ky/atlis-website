@@ -17,8 +17,8 @@ const columns = [
 
 const AboutMe = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
     id="about-me"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-[64px]"
   >
     {/* Background image with overlay */}
     <div className="absolute inset-0 z-0">
@@ -34,13 +34,13 @@ const AboutMe = () => (
       {columns.map((col, idx) => (
         <div
           key={col.title}
-          className={`h-full bg-[#232323]/40 p-16 ${
+          className={`group h-full bg-[#232323]/40 p-16 ${
             idx !== 0 ? "border-l-2 border-white" : ""
           }`}
         >
           <div className="h-full grid grid-rows-[auto,1fr] items-start text-center">
             <h2
-              className="text-5xl font-extrabold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 tracking-widest uppercase drop-shadow-lg min-h-[80px]"
+              className="text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-00 bg-clip-text tracking-widest uppercase drop-shadow-lg min-h-[80px]"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               {col.title}

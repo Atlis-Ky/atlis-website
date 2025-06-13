@@ -12,7 +12,7 @@ const SectionDivider = ({
 
   return (
     <section
-      className="w-full h-26 flex items-center justify-center bg-[#1a1a1a] relative overflow-hidden"
+      className="group w-full h-26 flex items-center justify-center bg-[#1a1a1a] relative overflow-hidden"
       style={{ backgroundColor: "transparent" }}
     >
       <img
@@ -25,7 +25,7 @@ const SectionDivider = ({
       />
       <div className="absolute inset-0 bg-[#1a1a1a] opacity-40 z-10" />
       <h2
-        className="relative z-10 text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-400 to-blue-400 tracking-widest uppercase text-center drop-shadow-lg"
+        className="relative z-10 text-3xl md:text-5xl font-extrabold text-white group-hover:text-blue-300 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
         style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
       >
         {title}
