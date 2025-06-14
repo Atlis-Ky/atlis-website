@@ -17,9 +17,9 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white fixed w-full z-20 top-0 left-0 shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 pl-0 pr-2 md:pr-8">
-        <div className="text-2xl font-extrabold tracking-widest uppercase ml-2">
+        <a className="text-2xl font-extrabold tracking-widest uppercase ml-2" href="#">
           A t l i s
-        </div>
+        </a>
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center">
           {sections.map((section, idx) => (

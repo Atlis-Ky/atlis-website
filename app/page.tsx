@@ -13,6 +13,7 @@ export default function Home() {
       <Intro />
       <SectionDivider title="About Me" ySeed={70} />
       <AboutMe />
+      <SectionDivider title="Albums & EP's" ySeed={20} />
       <Discography />
       <SectionDivider title="Where To Find Me" ySeed={70} />
       <FindMe />

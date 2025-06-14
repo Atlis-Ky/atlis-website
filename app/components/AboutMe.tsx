@@ -18,7 +18,7 @@ const columns = [
 const AboutMe = () => (
   <section
     id="about-me"
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-[64px]"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
   >
     <div className="absolute inset-0 z-0">
       <img
