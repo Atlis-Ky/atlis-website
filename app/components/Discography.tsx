@@ -4,7 +4,6 @@ import SinglesFeatures from "./SinglesFeatures";
 
 const Discography = () => (
   <section id="discography" className="scroll-mt-16">
-    <SectionDivider title="Albums & EP's" ySeed={20} />
     <AlbumsEPs
       title="Ambient Studies"
       description="6 track passion project exploring ambient soundscapes and textures. Independently distributed and released, 2025."

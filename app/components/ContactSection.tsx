@@ -2,7 +2,7 @@
 
 const ContactSection = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
     id="contact"
   >
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
