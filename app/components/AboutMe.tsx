@@ -20,7 +20,6 @@ const AboutMe = () => (
     id="about-me"
     className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-[64px]"
   >
-    {/* Background image with overlay */}
     <div className="absolute inset-0 z-0">
       <img
         src="/IMG_8939.jpeg"
@@ -29,7 +28,7 @@ const AboutMe = () => (
       />
       <div className="absolute inset-0 bg-[#1a1a1a] opacity-60" />
     </div>
-    {/* Foreground content */}
+
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
       {columns.map((col, idx) => (
         <div

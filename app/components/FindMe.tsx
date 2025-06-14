@@ -2,7 +2,7 @@
 
 const FindMe = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden scroll-mt-16"
+    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans overflow-hidden"
     id="find-me"
   >
     <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
@@ -16,7 +16,7 @@ const FindMe = () => (
       </div>
 
       <div className="relative col-span-2 h-full flex">
-        {/* Shared background image for both columns */}
+       
         <img
           src="/IMG_8908.jpg"
           alt="Background"
