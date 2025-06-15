@@ -18,7 +18,7 @@ const columns = [
 const AboutMe = () => (
   <section
     id="about-me"
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
+    className="relative w-full md:h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
   >
     <div className="absolute inset-0 z-0">
       <img
@@ -29,22 +29,22 @@ const AboutMe = () => (
       <div className="absolute inset-0 bg-[#1a1a1a] opacity-60" />
     </div>
 
-    <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
+    <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-3 h-full">
       {columns.map((col, idx) => (
         <div
           key={col.title}
-          className={`group h-full bg-[#232323]/40 p-16 ${
+          className={`group md:h-full bg-[#232323]/40 p-6 sm:p-10 md:p-16 flex flex-col justify-start ${
             idx !== 0 ? "border-l-2 border-white" : ""
           }`}
         >
-          <div className="h-full grid grid-rows-[auto,1fr] items-start text-center">
+          <div className="grid grid-rows-[auto,1fr] items-start text-center h-full">
             <h2
-              className="text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-00 bg-clip-text tracking-widest uppercase drop-shadow-lg min-h-[80px]"
+              className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 bg-clip-text tracking-widest uppercase drop-shadow-lg min-h-[60px] md:min-h-[80px]"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               {col.title}
             </h2>
-            <p className="text-xl font-semibold leading-relaxed text-white/90 max-w-lg mx-auto tracking-wide">
+            <p className="text-base sm:text-lg md:text-xl font-semibold leading-relaxed text-white/90 max-w-lg mx-auto tracking-wide">
               {col.text}
             </p>
           </div>
