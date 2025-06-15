@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import AboutMe from "./components/AboutMe";
 import ContactSection from "./components/ContactSection";
 import Discography from "./components/Discography";
@@ -6,8 +9,14 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import SectionDivider from "./components/SectionDivider";
 
-
 export default function Home() {
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
       <Intro />
@@ -20,7 +29,6 @@ export default function Home() {
       <SectionDivider title="Contact" ySeed={10} />
       <ContactSection />
       <Footer />
-    
     </main>
   );
 }
