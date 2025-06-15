@@ -14,13 +14,14 @@ const ContactSection = () => (
           style={{ objectPosition: "center 80%" }}
           draggable={false}
         />
-        <div className="absolute left-0 top-0 bottom-0 right-1/3 bg-[#232323] opacity-60 z-10 pointer-events-none" />
+        <div className="absolute left-0 top-0 bottom-0 right-1/3 bg-[#232323] opacity-70 z-10 pointer-events-none" />
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white group">
         <h3 className="text-3xl font-bold mb-4 text-white group-hover:text-pink-400 transition-colors duration-500 text-center uppercase tracking-widest">
           Web Development Queries
         </h3>
+         <p className="text-lg flex flex-col text-center">If you've got any questions, or have any opportunities available for front end development roles, you can reach me using the form below, I'll be sure to get back to you ASAP.</p>
         <form
           className="flex flex-col gap-4 w-full max-w-xs mt-auto mb-5"
           action="mailto:kylesmith97@outlook.com"
@@ -62,9 +63,10 @@ const ContactSection = () => (
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-r-2 border-white group">
-        <h3 className="text-3xl font-bold mb-4 text-white group-hover:text-blue-300 transition-colors duration-500 text-center uppercase tracking-widest">
+        <h3 className="text-3xl font-bold mb-4 text-white group-hover:text-pink-400 transition-colors duration-500 text-center uppercase tracking-widest">
           Production Queries
         </h3>
+        <p className="text-lg flex flex-col text-center">If you want to reach out for info/quieries/opportunities on the production side of things, use this form to reach me on my Atlis email.</p>
         <form
           className="flex flex-col gap-4 w-full max-w-xs mt-auto mb-5"
           action="mailto:atlisbeets@gmail.com"
