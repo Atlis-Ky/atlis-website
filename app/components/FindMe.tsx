@@ -2,11 +2,12 @@
 
 const FindMe = () => (
   <section
-    className="relative w-full h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
+    className="relative w-full md:h-[calc(100vh-64px)] bg-[#1a1a1a] font-sans scroll-mt-16"
     id="find-me"
   >
-    <div className="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-3">
-      <div className="h-full bg-[#232323]/40 p-0 flex items-center justify-center overflow-hidden">
+    <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-3 h-full">
+      {/* Left image column */}
+      <div className="md:h-full bg-[#232323]/40 p-0 flex items-center justify-center overflow-hidden">
         <img
           src="/kodii.jpg"
           alt="Find Me"
@@ -15,8 +16,9 @@ const FindMe = () => (
         />
       </div>
 
-      <div className="relative col-span-2 h-full flex">
-       
+      {/* Right content columns */}
+      <div className="relative col-span-2 md:h-full flex">
+        {/* Background image and overlay */}
         <img
           src="/IMG_8908.jpg"
           alt="Background"
@@ -25,15 +27,17 @@ const FindMe = () => (
         />
         <div className="absolute inset-0 bg-[#232323] opacity-70 z-0" />
 
+        {/* Content grid */}
         <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2">
-          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white group">
+          {/* Web Development column */}
+          <div className="flex flex-col items-center justify-start w-full md:h-full p-8 md:p-16 border-l-2 border-white group">
             <h2
-              className="text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
+              className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               Web Development
             </h2>
-            <p className="text-lg text-white/80 mb-8 text-center max-w-xs">
+            <p className="text-base sm:text-lg md:text-xl text-white/80 mb-8 text-center max-w-xs">
               I'm actively seeking out opportunities in front-end web
               development right now! If you're looking to expand / take on some
               new hires, please reach out. I'll stick my LinkedIn and Github
@@ -72,14 +76,15 @@ const FindMe = () => (
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-start w-full h-full p-8 md:p-16 border-l-2 border-white group">
+          {/* Production & Audio column */}
+          <div className="flex flex-col items-center justify-start w-full md:h-full p-8 md:p-16 border-l-2 border-white group">
             <h2
-              className="text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
+              className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-white group-hover:text-pink-400 transition-colors duration-500 tracking-widest uppercase text-center drop-shadow-lg"
               style={{ fontFamily: "var(--font-geist-sans), sans-serif" }}
             >
               Production & Audio
             </h2>
-            <p className="text-lg text-white/80 mb-8 text-center max-w-xs">
+            <p className="text-base sm:text-lg md:text-xl text-white/80 mb-8 text-center max-w-xs">
               Or maybe you're just interested in keeping up with the music side
               of what I do? That's cool too! you can find me on pretty much any
               streaming service, I'll link the main ones below, thanks for
@@ -133,7 +138,7 @@ const FindMe = () => (
                 href="https://www.instagram.com/atlisbeets/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-row items-center justify-center bg-[#232323]/70 rounded-xl px-15 py-3 hover:opacity-80 transition w-full"
+                className="flex flex-row items-center justify-center bg-[#232323]/70 rounded-xl px-8 py-3 hover:opacity-80 transition w-full"
               >
                 <img
                   src="/instagram.png"
