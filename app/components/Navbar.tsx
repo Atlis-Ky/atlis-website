@@ -17,7 +17,10 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white fixed w-full z-20 top-0 left-0 shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 pl-0 pr-2 md:pr-8">
-        <a className="text-2xl font-extrabold tracking-widest uppercase ml-2" href="#">
+        <a
+          className="text-lg md:text-xl lg:text-2xl font-extrabold tracking-widest uppercase ml-1 md:ml-2 whitespace-nowrap"
+          href="#"
+        >
           A t l i s
         </a>
         {/* Desktop Menu */}
