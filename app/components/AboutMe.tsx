@@ -3,15 +3,15 @@
 const columns = [
   {
     title: "Producer & Artist",
-    text: 'Multi-Discipline producer of 10+ years, most notably on the "Atlis" project, which has amassed over 40 million streams through lofi and ambient releases. Practical skills in arrangement, writing and sound design. Additional understanding and experience producing and collaborating cross genre in Electronic music, Rock & Metal, and Synthwave to name a few.',
+    text: `Multi-Discipline producer of 10+ years, most notably on the "Atlis" project, which has amassed over 40 million streams through lofi and ambient releases. Practical skills in arrangement, writing and sound design. Additional understanding and experience producing and collaborating cross genre in Electronic Music, Rock, Metal, and Synthwave to name a few.`,
   },
   {
     title: "Front End Developer",
-    text: "Highly motivated self-taught developer with a keen interest in building modern, responsive web apps, and a passion for problem solving & eye catching design. Experience building with React.js, Next.js, and TypeScript. Proficient in both CSS and Tailwind CSS, UI/UX design, Bootstrap 5, among other tools and technologies.",
+    text: `Highly motivated self-taught developer with a keen interest in building modern, responsive web apps, as well as a passion for problem solving and eye catching design. Experience building with React.js, Next.js, and TypeScript. Proficient in both CSS and Tailwind CSS, UI/UX design, Bootstrap 5, among other tools and technologies.`,
   },
   {
     title: "Audio Engineer",
-    text: "Mixing & Mastering proficiency for self and others. Knowledgeable in studio hardware, software, acoustics, and digital audio workflows. Extremely knowledgable and familiar with Ableton Live suite, have spent almost half of my life learning the software, its stock plugins and functions, as well as a strong grasp of many third party plugin suites.",
+    text: `Mixing and Mastering proficiency for self and others. Knowledgeable in studio hardware, software, acoustics, and digital audio workflows. Extremely knowledgable and familiar with Ableton Live suite, have spent almost half of my life learning the software, its stock plugins and functions, as well as a strong grasp of many third party plugin suites.`,
   },
 ];
 
