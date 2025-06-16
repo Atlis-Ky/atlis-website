@@ -52,7 +52,7 @@ const Intro = () => (
         "Next.js",
         "Bootstrap5",
         "Vitest",
-        "CSS & Tailwind",
+        "CSS + Tailwind",
         "API",
         "AI Tools",
         "Git + Github",
