@@ -28,9 +28,9 @@ const ContactForms = () => (
               Web Development Queries
             </h2>
             <p className="text-sm xs:text-base sm:text-lg md:text-base lg:text-lg text-white/80 mb-4 sm:mb-8 text-center max-w-xs sm:max-w-md md:max-w-lg">
-              If you&apos;ve got any questions, or have any opportunities
+              If you've got any questions, or have any opportunities
               available for front end development roles, you can reach me using
-              the form below, I&apos;ll be sure to get back to you ASAP.
+              the form below, I'll be sure to get back to you ASAP.
             </p>
             <form
               className="flex flex-col gap-4 w-full max-w-xs mt-auto mb-5"

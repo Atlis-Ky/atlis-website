@@ -17,7 +17,18 @@ const Intro = () => (
     <div className="relative z-10 w-full md:h-full grid grid-cols-1 md:grid-cols-3">
       <div className="md:col-span-2 md:h-full bg-[#232323]/40 p-4 sm:p-6 md:p-12 flex flex-col justify-start pt-6 md:pt-10">
         <p className="text-base sm:text-lg md:text-xl text-center font-semibold leading-relaxed text-white/90 max-w-xs sm:max-w-md md:max-w-2xl mx-auto tracking-wide">
-          {`Hey! I’m Kyle, I'm a Front End Developer, with a background as a music industry professional. I've got a pretty broad set of job experiences and skills (as you may have read if you came here from my CV) but lately I've been putting almost all of my time into learning as much as I can about web development, specifically the Front End. I've always had an eye for design, so being able to channel that into a practical and seemingly endless learning journey has been pretty cool! Feel free to reach out If you think I'd be a good fit on your development team! I'll be using most of this webpage as a portfolio for my music industry work just to demonstrate some practical use of modern programming tools and languages, but feel free to have a look at any of those projects too if you feel like it. See below for CV :D`}
+          Hey! I'm Kyle, I'm a Front End Developer, with a background as a music
+          industry professional. I've got a pretty broad set of job experiences
+          and skills (as you may have read if you came here from my CV) but
+          lately I've been putting almost all of my time into learning as much
+          as I can about web development, specifically the Front End. I've
+          always had an eye for design, so being able to channel that into a
+          practical and seemingly endless learning journey has been pretty cool!
+          Feel free to reach out if you think I'd be a good fit on your
+          development team! I'll be using most of this webpage as a portfolio
+          for my music industry work just to demonstrate some practical use of
+          modern programming tools and languages, but feel free to have a look
+          at any of those projects too if you feel like it. See below for CV :D
         </p>
         <a
           href="https://standardresume.co/r/deuFz-PeFdit0VJZ3rQ1Q"
@@ -52,7 +63,7 @@ const Intro = () => (
         "Next.js",
         "Bootstrap5",
         "Vitest",
-        "CSS + Tailwind",
+        "CSS & Tailwind",
         "API",
         "AI Tools",
         "Git + Github",
