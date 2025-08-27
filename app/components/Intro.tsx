@@ -43,6 +43,19 @@ const Intro = () => (
         >
           VIEW CV/RESUME
         </a>
+        <a
+          href="https://frontent-portfolio-atlis-ky.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 sm:mt-6 w-full sm:w-[80%] md:w-[70%] mx-auto rounded-xl py-2 sm:py-3 text-base sm:text-lg font-bold text-center transition duration-500
+            bg-pink-400 hover:bg-pink-500 text-white shadow-lg tracking-widest uppercase"
+          style={{
+            fontFamily: "var(--font-geist-sans), sans-serif",
+            letterSpacing: "0.1em",
+          }}
+        >
+          VIEW PORTFOLIO
+        </a>
       </div>
 
       <div className="md:col-span-1 h-full sm:h-[28rem] md:h-auto relative overflow-hidden">
