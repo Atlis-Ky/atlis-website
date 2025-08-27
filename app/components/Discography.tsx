@@ -58,7 +58,7 @@ const Discography = () => (
     <SinglesFeatures
       title="Never Enough"
       spotifyEmbedUrl="https://open.spotify.com/embed/track/6l4fFm0n8BDfzwtNh9cICJ?utm_source=generato"
-      backgroundImage="/neverEnough.jpg"
+      backgroundImage="/neverEnough.JPG"
     />
 
     <SinglesFeatures
