@@ -28,7 +28,7 @@ const Intro = () => (
           development team! I'll be using most of this webpage as a portfolio
           for my music industry work just to demonstrate some practical use of
           modern programming tools and languages, but feel free to have a look
-          at any of those projects too if you feel like it. See below for CV :D
+          at My CV and web development projects on the buttons below :D
         </p>
         <a
           href="https://standardresume.co/r/deuFz-PeFdit0VJZ3rQ1Q"
@@ -54,7 +54,7 @@ const Intro = () => (
             letterSpacing: "0.1em",
           }}
         >
-          VIEW PORTFOLIO
+          VIEW PROJECTS/PORTFOLIO
         </a>
       </div>
 
